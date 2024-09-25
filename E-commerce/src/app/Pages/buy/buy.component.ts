@@ -1,6 +1,6 @@
 import { Component, OnInit , inject } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
-import { ProductService } from '../../Servises/Product/product.service';
+import { ProductService } from '../../Services/Product/product.service';
 import { ProductCompleteResponse } from '../../Interfaces/product-complete-response';
 import { NavbarComponent } from "../../Components/navbar/navbar.component";
 

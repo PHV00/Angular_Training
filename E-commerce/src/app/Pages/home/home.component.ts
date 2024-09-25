@@ -1,7 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { CardComponent } from "../../Components/card/card.component";
 import { CommonModule } from '@angular/common';
-import { ProductService } from '../../Servises/Product/product.service';
+import { ProductService } from '../../Services/Product/product.service';
 import { ProductResponse } from '../../Interfaces/product-response';
 import { NavbarComponent } from "../../Components/navbar/navbar.component";
 
