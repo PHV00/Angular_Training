@@ -1,0 +1,68 @@
+<div class="
+    flex 
+    justify-center 
+    items-center
+    w-screen
+    h-screen
+    ">
+    <form class="
+        w-1/4
+        h-2/4
+        flex flex-col 
+        border-4 border-black
+        rounded-lg p-6 
+        py-10
+        px-20
+        "[formGroup]="form"
+        >
+        <h3 class="
+            text-start
+            text-5xl 
+            pb-2
+        ">DEFAULT</h3>
+        <p class="
+            mt-12
+            text-start
+            text-2xl 
+            pb-2" 
+            >User</p>
+        <input class="
+            h-10
+            text-start
+            border-black 
+            border-2 rounded-md 
+            mb-2 " type="text" [formControl]="form.controls.username"
+            >
+        <p class="
+            text-start 
+            text-2xl 
+            my-2"
+            >Password</p>
+        <input class="
+            h-10
+            text-start
+            border-black 
+            border-2 
+            rounded-md 
+            mb-2" type="text" [formControl]="form.controls.password">
+        <a class="
+            text-xl
+        ">Forgot Password?</a>
+        <button class="
+            h-14
+            mt-12
+            text-2xl 
+            bg-white 
+            border-black 
+            border-2 
+            rounded-md 
+            mb-2" (click)="logar()" >Login</button>
+    </form>
+</div>
+
+
+<!-- 
+<p {{ resposta?.email}}></p>
+<p {{ resposta?.firstName}}></p>
+<p {{ resposta?.lastName}}></p> -->
+<!-- <img [src]="resposta?.image" alt=""> -->

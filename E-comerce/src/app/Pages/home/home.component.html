@@ -1,0 +1,23 @@
+<div>
+    <app-navbar></app-navbar>
+    <h3 class="
+        mt-12
+        ml-52
+        text-3xl
+    ">Products</h3>
+    <div class="
+        flex
+        flex-wrap
+        mt-12
+        mx-52
+    ">
+        <app-card
+        class="mb-5"
+        *ngFor="let products of respostas" 
+        title={{products.title}} 
+        thumbnail={{products.thumbnail}}
+        price={{products.price}}
+        id={{products.id}}
+        ></app-card>
+    </div>
+</div>
